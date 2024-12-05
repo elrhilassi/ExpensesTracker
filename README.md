@@ -13,26 +13,25 @@ http://localhost:4200
 
 ```
 
-## Back-end
+## back-end
 
 
 ```bash
-cd angular-frontend
-npm install --f
-ng serve
-http://localhost:4200
-
-```
-
-## Technologies Used
-
-```python
 cd dotnet-backend
 dotnet restore
 dotnet ef database update
 dotnet run
 http://localhost:5000
 
+```
+
+## Technologies Used
+
+```python
+Frontend: Angular 18, TypeScript
+Backend: .NET 8, Entity Framework Core
+Database: postgres
+Styling: Tailwind CSS
 ```
 
 
