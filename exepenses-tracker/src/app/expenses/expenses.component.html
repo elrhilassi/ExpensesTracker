@@ -1,0 +1,28 @@
+<!-- accounting-dashboard.component.html -->
+<div class="">
+  <h1 class="text-xl font-semibold mb-6 font-sans">Expenses</h1>
+
+  <!-- Stats Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Budget</div>
+      <div class="text-2xl font-[600] mt-2">€ {{ Budget }}</div>
+    </div>
+
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Total Spending</div>
+      <div class="text-2xl text-red-600 font-[600] mt-2">€ {{ spinding }}</div>
+    </div>
+
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Remaining</div>
+      <div class="text-2xl font-[600] mt-2">€ {{ ReamaingBudget }}</div>
+      <div class="text-sm text-red-600 mt-1">
+        -{{ expensePercentage }}% VS Budget
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart and Tasks Grid -->
+</div>
+<app-transactions-history></app-transactions-history>

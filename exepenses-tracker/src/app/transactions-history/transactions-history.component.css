@@ -1,0 +1,14 @@
+.success-snackbar {
+  background: #4caf50;
+  color: white;
+}
+
+.error-snackbar {
+  background: #f44336;
+  color: white;
+}
+
+/* Style for the close button */
+.mat-snack-bar-action {
+  color: white;
+}

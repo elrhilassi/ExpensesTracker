@@ -1,0 +1,140 @@
+<!-- accounting-dashboard.component.html -->
+<div class="">
+  <h1 class="text-xl font-semibold mb-6 font-sans">Dashboard</h1>
+
+  <!-- Stats Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Budget</div>
+      <div class="text-2xl font-[600] mt-2">€ {{ Budget }}</div>
+    </div>
+
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Total Spending</div>
+      <div class="text-2xl text-red-600 font-[600] mt-2">€ {{ spinding }}</div>
+    </div>
+
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <div class="text-gray-600 font-semibold mb-2 p-1">Remaining</div>
+      <div class="text-2xl font-[600] mt-2">€ {{ ReamaingBudget }}</div>
+      <div class="text-sm text-red-600 mt-1">
+        -{{ expensePercentage }}% VS Budget
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart and Tasks Grid -->
+  <div class="grid grid-cols-3 gap-4">
+    <!-- Chart Section -->
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <h2 class="text-gray-600 font-semibold mb-2 p-1">Expenses chart</h2>
+      <div class="h-64">
+        <canvas
+          baseChart
+          [data]="pieChartData"
+          [options]="pieChartOptions"
+          [plugins]="pieChartPlugins"
+          [type]="'pie'"
+        >
+        </canvas>
+      </div>
+    </div>
+    <!-- progress section -->
+    <div class="bg-white rounded-[5px] shadow p-4">
+      <h3 class="text-gray-600 font-semibold mb-2 p-1">Expenses Progress</h3>
+      <div class="w-[181px] h-[31px] flex items-center ml-10 mt-8">
+        <div class="text-[#000000] text-xl font-[600] mt-2 mr-2">€</div>
+        <div class="flex items-center">
+          <span class="text-[#000000] text-[26px] text-2xl font-[600] mt-2">
+            {{ spinding }}
+          </span>
+          <span class="text-[#000000] text-[26px] text-2xl font-semibold mt-2">
+            /
+          </span>
+        </div>
+        <div class="text-[#727070] text-[23px] font-[500] mt-4">
+          {{ Budget }}
+        </div>
+      </div>
+
+      <!-- Progress Bar Wrapper -->
+      <div class="w-full bg-gray-200 rounded-full h-8 relative mt-[25px]">
+        <!-- Eclipse effect on progress bar -->
+        <div
+          class="absolute top-0 left-0 h-full bg-[#49b8ad] rounded-full text-white text-sm font-semibold flex items-center justify-center"
+          [ngStyle]="{ width: expensePercentage + '%' }"
+        >
+          {{ expensePercentage }}%
+        </div>
+
+        <!-- Eclipse Shadow Effect -->
+        <div
+          class="absolute top-0 left-0 h-full bg-gray-200 rounded-full"
+          style="clip-path: ellipse(70% 50% at 100% 50%)"
+        ></div>
+      </div>
+
+      <!-- Info Section -->
+      <div class="mt-4 text-sm text-gray-500">
+        <div class="flex justify-between">
+          <span>Total Spent: €{{ spinding }}</span>
+          <span>Budget: €{{ Budget }}</span>
+        </div>
+      </div>
+    </div>
+    <!-- Tasks Section -->
+    <div
+      class="bg-white rounded-[5px] p-4 shadow flex flex-col justify-between"
+    >
+      <!-- Tabs -->
+      <div class="flex border-b mb-4">
+        <button
+          class="text-teal-500 border-b-2 font-[600] border-teal-500 pb-1"
+        >
+          Recent Expenses
+        </button>
+      </div>
+
+      <!-- Transactions -->
+      <div class="space-y-4">
+        <div
+          class="flex items-center cursor-pointer justify-between hover:bg-slate-100 p-1 rounded-[4px]"
+          *ngFor="let expense of expensesList"
+        >
+          <div class="flex items-center gap-3">
+            <div class="bg-gray-100 p-2 rounded-[5px]">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path d="M15 10.5a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0z" />
+              </svg>
+            </div>
+            <div>
+              <p class="font-medium">{{ expense.name }}</p>
+              <p class="text-sm text-gray-500">{{ expense.description }}</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <p class="font-medium text-red-600">
+              -{{ expense.amount | currency }}
+            </p>
+            <p class="text-sm text-gray-500">{{ expense.date }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 text-center mb-2">
+        <button
+          routerLink="/expenses"
+          class="text-[#49b8ad] font-semibold border-transparent hover:bg-teal-50 p-2 rounded-[4px]"
+        >
+          See more
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\controllers\\budgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\controllers\\budgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\migrations\\20241205083859_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\migrations\\20241205083859_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\expensesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\expensesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|c:\\users\\mohammed\\source\\repos\\expensesapi\\expensesapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA41B8E-CD21-45CC-96E8-274832939159}|ExpensesApi\\ExpensesApi.csproj|solutionrelative:expensesapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ExpensesApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:21:27.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BudgetsController.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\BudgetsController.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Controllers\\BudgetsController.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\BudgetsController.cs",
+              "RelativeToolTip": "ExpensesApi\\Controllers\\BudgetsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:30:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Program.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Program.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Program.cs",
+              "RelativeToolTip": "ExpensesApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:24:51.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Budget.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Models\\Budget.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Budget.cs",
+              "RelativeToolTip": "ExpensesApi\\Models\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:17:35.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpensesApi\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:17:06.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "ExpensesApi\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:22:36.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241205083859_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Migrations\\20241205083859_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Migrations\\20241205083859_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Migrations\\20241205083859_InitialCreate.cs",
+              "RelativeToolTip": "ExpensesApi\\Migrations\\20241205083859_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:40:37.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ExpensesApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:51:30.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ExpensesApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:23:23.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExpensesApi",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\ExpensesApi.csproj",
+              "RelativeDocumentMoniker": "ExpensesApi\\ExpensesApi.csproj",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\ExpensesApi.csproj",
+              "RelativeToolTip": "ExpensesApi\\ExpensesApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T08:22:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ExpensesApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:30:49.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ExpensesApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\appsettings.json",
+              "RelativeToolTip": "ExpensesApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T08:25:22.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\Category.cs",
+              "RelativeToolTip": "ExpensesApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:16:45.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ExpensesApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mohammed\\source\\repos\\ExpensesApi\\ExpensesApi\\Models\\User.cs",
+              "RelativeToolTip": "ExpensesApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:16:11.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
