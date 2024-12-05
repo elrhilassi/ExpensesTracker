@@ -6,7 +6,7 @@ A full-stack project combining an Angular frontend and a .NET backend to manage 
 
 
 ```bash
-cd angular-frontend
+cd exepenses-tracker
 npm install --f
 ng serve
 http://localhost:4200
@@ -17,7 +17,7 @@ http://localhost:4200
 
 
 ```bash
-cd dotnet-backend
+cd ExpensesApi
 dotnet restore
 dotnet ef database update
 dotnet run
