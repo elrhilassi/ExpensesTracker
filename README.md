@@ -12,10 +12,10 @@ npm i -f
 ## Technologies Used
 
 ```python
-Frontend: Angular 14, SCSS, TypeScript
+Frontend: Angular 18, TypeScript
 Backend: .NET 8, Entity Framework Core
-Database: SQLite (or your preferred database)
-Styling: Bootstrap, Tailwind CSS
+Database: postgres
+Styling: Tailwind CSS
 ```
 
 
